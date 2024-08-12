@@ -1,0 +1,14 @@
+instruções 
+
+usar o docker load para as imagens
+	exemplo em linux
+		-no diretorio onde estão as imagens
+			sudo docker load -i trabalhosdwebscraper.tar
+			sudo docker load -i trabalhosdwebserver.tar
+usar o docker compose
+	exemplo em linux
+		-no diretorio onde está o arquivo docker-compose.yml
+			sudo docker-compose up
+
+sistema estará disponível no endereço
+	http://localhost:5000

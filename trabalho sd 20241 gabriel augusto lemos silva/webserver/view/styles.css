@@ -1,0 +1,138 @@
+/* Define o fundo da página */
+body {
+    background-image: url('images/grafico_fundo.png');; /* Cor de fundo verde escuro */
+    font-family: "Times New Roman", Times, serif; /* Fonte Times New Roman */
+    color: #ffffff; /* Cor da fonte preta */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+}
+
+/* Define o estilo para o título principal */
+h1 {
+    text-align: center; /* Centraliza o título */
+    margin-top: 20px; /* Espaçamento superior do título */
+    font-size: 3.5em; /* Aumenta o tamanho da fonte */
+}
+
+/* Define o estilo para os subtítulos das seções */
+h2 {
+    margin-bottom: 10px; /* Espaçamento inferior dos subtítulos */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte */
+}
+
+/* Estilo geral para as seções */
+.section {
+    margin-bottom: 20px; /* Espaçamento inferior entre as seções */
+    padding: 10px; /* Preenchimento das seções */
+    border-radius: 5px; /* Arredonda os cantos das seções */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para os grupos de input */
+.input-group {
+    display: flex; /* Usa layout flexível para alinhar os itens */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    justify-content: center; /* Centraliza os inputs */
+    margin-bottom: 0.5cm; /* Espaçamento entre os grupos de input */
+    width: 80%; /* Define uma largura máxima para os grupos de input */
+    max-width: 400px; /* Define uma largura máxima para os grupos de input */
+    margin: 0 auto; /* Centraliza os campos */
+}
+
+/* Estilo para as imagens ao lado dos inputs */
+.section img {
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+    width: 100px; /* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+}
+
+.grafico {
+    margin-bottom: 20px; /* Espaçamento inferior entre as seções */
+    padding: 10px; /* Preenchimento das seções */
+    border-radius: 5px; /* Arredonda os cantos das seções */
+    text-align: center; /* Centraliza o texto */
+}
+.grafico img {
+    display: flex;
+    align-self:  center;
+    margin: 0 auto;
+} 
+
+/* Estilo para o contêiner de inputs */
+.input-container {
+    display: flex;
+    flex-direction: column; /* Disposição em coluna */
+    width: 100%; /* Ocupa toda a largura disponível */
+}
+
+/* Estilo para os labels */
+label {
+    display: block; /* Exibe os labels como blocos */
+    margin-bottom: 5px; /* Espaçamento inferior dos labels */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+}
+
+/* Estilo para os inputs */
+input[type="text"] {
+    width: 100%; /* Faz os inputs ocuparem toda a largura disponível */
+    padding: 5px; /* Preenchimento interno dos inputs */
+    border: 1px solid #FFFACD; /* Borda dos inputs da mesma cor da fonte */
+    border-radius: 3px; /* Arredonda os cantos dos inputs */
+    background-color: #FFFACD; /* Cor de fundo dos inputs igual ao fundo da página */
+    color: #000000; /* Cor da fonte dos inputs igual à fonte da página */
+    font-size: 1em; /* Aumenta o tamanho da fonte */
+}
+
+/* Estilo específico para o campo de email */
+.input-group.email input[type="text"] {
+    max-width: 400px; /* Define uma largura máxima para o campo de email */
+    width: 100%; /* Garante que o campo de email ocupe toda a largura disponível até o limite */
+}
+
+/* Estilo para o contêiner dos botões */
+.button-container {
+    display: flex; /* Usa layout flexível para alinhar os itens */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 20px; /* Espaçamento superior do contêiner */
+}
+
+/* Estilo para o botão de envio */
+button[type="submit"],
+a[class="button"] {
+    padding: 10px 20px; /* Preenchimento interno do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    background-color: #FFFACD; /* Cor de fundo do botão */
+    color: #619c52; /* Cor da fonte do botão */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    cursor: pointer; /* Adiciona um cursor de ponteiro ao passar o mouse */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove a decoração do texto para o link */
+    display: inline-block; /* Faz o link se comportar como um botão */
+}
+
+/* Estilo para o botão de envio ao passar o mouse */
+button[type="submit"]:hover,
+a[class="button"]:hover {
+    background-color: #88b5f0; /* Muda a cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilo específico para o campo de email */
+.input-group.email {
+    max-width: 400px; /* Define uma largura máxima para o grupo de email */
+    width: 100%; /* Garante que o grupo de email ocupe toda a largura disponível */
+    margin: 0 auto; /* Centraliza o campo de email */
+}
+
+/* Ajusta a largura dos grupos de input */
+.input-group {
+    width: 80%; /* Define uma largura máxima para os grupos de input */
+    max-width: 400px; /* Define uma largura máxima para os grupos de input */
+    margin: 0 auto; /* Centraliza os campos */
+}
+
+/* Ajusta a largura dos contêineres de input */
+.input-container {
+    width: 100%; /* Faz os contêineres ocuparem toda a largura disponível */
+}

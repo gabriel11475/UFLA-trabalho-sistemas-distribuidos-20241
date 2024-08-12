@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifique-me</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Título principal da página -->
+    <h1>Por favor, me avise quando</h1>
+    
+    <!-- Formulário que será enviado com método POST -->
+    <form id="notificationForm" method=post onsubmit="return validateForm()">
+        <!-- Campo para o email -->
+        <div class="section">
+            <h2>Contato</h2>
+            <div class="input-group email">
+                <label>  E-mail:</label>
+                <input type="text" name="email">
+            </div>
+        </div>
+
+        <!-- Seção para Dólar -->
+        <div class="section">
+            <h2>Dólar</h2>
+            <div class="input-group">
+                <img src="images/nota_dolar.jpg" alt="Dólar">
+                <div class="input-container">
+                    <div>
+                        <label>Valor menor ou igual a:</label>
+                        <input type="text" name="dolar_valor_menor">
+                    </div>
+                    <div>
+                        <label>Valor maior que:</label>
+                        <input type="text" name="dolar_valor_maior">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Seção para Euro -->
+        <div class="section">
+            <h2>Euro</h2>
+            <div class="input-group">
+                <img src="images/nota_euro.jpeg" alt="Euro">
+                <div class="input-container">
+                    <div>
+                        <label>Valor menor ou igual a:</label>
+                        <input type="text" name="euro_valor_menor">
+                    </div>
+                    <div>
+                        <label>Valor maior que:</label>
+                        <input type="text" name="euro_valor_maior">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Seção para Bitcoin -->
+        <div class="section">
+            <h2>Bitcoin</h2>
+            <div class="input-group">
+                <img src="images/bitcoin.jpg" alt="Bitcoin">
+                <div class="input-container">
+                    <div>
+                        <label>Valor menor ou igual a:</label>
+                        <input type="text" name="bitcoin_valor_menor">
+                    </div>
+                    <div>
+                        <label>Valor maior que:</label>
+                        <input type="text" name="bitcoin_valor_maior">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contêiner para os botões -->
+        <div class="button-container">
+            <button type="submit">Enviar</button>
+            <a class="button" href="index.html">Voltar</a>
+        </div>
+    </form>
+
+    <!-- Inclusão do arquivo JavaScript externo -->
+    <script src="scripts.js"></script>
+</body>
+</html>
